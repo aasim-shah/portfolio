@@ -84,8 +84,9 @@ p{
 }
 .btn-custom{
     background-color: transparent;
-    color: rgba(255, 255, 255, 0.747) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.753) !important;
+    color: rgba(255, 255, 255, 1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.453) !important;
+    
 }
 .cont{
     margin-top: 50px;
@@ -130,9 +131,7 @@ p{
     ul li a{
         padding-left: 0px;
     }
-    .content{
-        height: 162vh;
-    }
+   
     .rotate{
         transform: rotateY(35deg);
     }
