@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+min-height: 100%;
+
+}
+.sidebar{
+    background-color: rgba(20, 19, 17, 0.897);
+}
+ul{
+    list-style: none;
+    display:flex;
+    /* padding-left: 12px !important; */
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+ul li{
+    padding-left: 8px;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+ul li a{
+    color: white;
+    padding-left: 8px;
+}
+ul li a:hover{
+  color: white;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(12, 11, 10, 0.925);
+    position: relative;
+
+}
+.content-inner{
+    width: 100%;
+    height: 50%;
+}
+#links{
+    display: none;
+    padding-top: 3px;
+    padding-left: 0px;
+    position: absolute;
+
+}
+ul li:hover > #links{
+display: block;
+}
+.name{
+    position: absolute;
+    top: 12px;
+    right: 23px;
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 12px !important;
+    font-weight: 700;
+    font-family: cursive;
+    text-shadow:5px 4px  24px  white;
+}
+.img{
+    height: 200px;
+    opacity: 0.1;
+}
+h3{
+    font-size: 33px !important;
+    text-shadow: 11px -7px 7px rgba(255, 255, 255, 0.438);
+    font-family: emoji;
+}
+h3:hover{
+    text-shadow:none; 
+}
+p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.616);
+}
+.btn-light{
+ width: 95%;
+}
+.btn-custom{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.747) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.753) !important;
+}
+.cont{
+    margin-top: 50px;
+      height: 273px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  display: flex;
+  }
+.first-col{
+    width: 95px;
+}
+.second-col{
+    width: 110px;
+}
+.third-col{
+    width: 110px;
+}
+.fourth-col{
+    width: 110px;
+}
+.cus{
+    background-color: transparent;
+    border: none;
+    
+}
+@media only screen and (max-width:400px){
+    ul{
+        padding-left: 0px !important;
+    }
+    .col-12{
+        flex-direction: column;
+    }
+    .img{
+        display: none;
+    }
+    h3{
+        font-size: 23px !important;
+        text-shadow: 11px -7px 7px rgba(255, 255, 255, 0.438);
+        font-family: emoji;
+    }
+    ul li a{
+        padding-left: 0px;
+    }
+    .content{
+        height: 162vh;
+    }
+    .rotate{
+        transform: rotateY(35deg);
+    }
+}
