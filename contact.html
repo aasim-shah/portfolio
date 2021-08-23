@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 
 <body>
@@ -20,30 +21,30 @@
         <div class="row main  ">
             <div class="col-2 col-lg-1 sidebar " >
                 <ul >
-                    <li><a href="index.html"><i class="fas fa-home fa-2x"></i></a>                    <span id="links" class="text-white">Home</span>
+                    <li data-aos="fade-right" data-aos-delay="200"><a href="index.html"  ><i class="fas fa-home fa-2x"></i></a>                    <span id="links" class="text-white">Home</span>
                     </li>
-                    <li> <a href="about.html"><i class="fas fa-address-card fa-2x"></i></a>
+                    <li data-aos="fade-right" data-aos-delay="250"> <a href="about.html"><i class="fas fa-address-card fa-2x"></i></a>
                     <span id="links" class="text-white">About</span>
                     </li>
-                    <li><a href="skills.html"><i class="fas fa-tasks fa-2x"></i></a><span id="links" class="text-white">Skills</span>
+                    <li data-aos="fade-right" data-aos-delay="300"> <a href="skills.html"><i class="fas fa-tasks fa-2x"></i></a><span id="links" class="text-white">Skills</span>
                     </li>
-                    <li><a href="services.html"><i class="fas fa-sliders-h fa-2x"></i></a><span id="links"
+                    <li data-aos="fade-right" data-aos-delay="350"><a href="services.html"><i class="fas fa-sliders-h fa-2x"></i></a><span id="links"
                         class="text-white">services</span>
-                    </li>
-                    <li><a href="contact.html"><i class="fas fa-envelope fa-2x"></i></a><span id="links" class="text-white">Contact</span>
+                    </li data-aos="fade-right" data-aos-delay="400">
+                    <li data-aos="fade-right" data-aos-delay="450"><a href="contact.html"><i class="fas fa-envelope fa-2x"></i></a><span id="links" class="text-white">Contact</span>
                     </li>
                 </ul>
             </div>
             <div class="col-10  col-lg-11  content">
               <span class=" navbar-brand name">Aasim shah</span>
 
-              <div class="container content-inner ">
+              <div class="container content-inner " data-aos="fade-right">
                 <div class="row mt-5">
                     <div class="col-lg-1"></div>
                     <div class="col-12 col-lg-10 text-white d-flex justify-content-between">
                        <div class="col-lg-5 col-12 mx-auto mt-3">
 
-                           <h3 class="bordered">Contact Us ,</h3>
+                           <h3 class="bordered" >Contact Us ,</h3>
                             <input type="text" class="cus py-3 d-block" placeholder="Name" >
                         <hr>
                             <input type="email" class="cus py-3" placeholder="Email Address">
@@ -74,6 +75,10 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/flickity.js"></script>
     <script src="js/all.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

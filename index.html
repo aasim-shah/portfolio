@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/aos.css">
+
 </head>
 
 <body>
@@ -20,17 +22,17 @@
         <div class="row main  ">
             <div class="col-2 col-sm-2 col-lg-1 sidebar " >
                 <ul >
-                    <li><a href="index.html"><i class="fas fa-home fa-2x"></i></a>                    <span id="links" class="text-white">Home</span>
+                    <li data-aos="fade-right" data-aos-delay="200"><a href="index.html"  ><i class="fas fa-home fa-2x"></i></a>                    <span id="links" class="text-white">Home</span>
                     </li>
-                    <li> <a href="about.html"><i class="fas fa-address-card fa-2x"></i></a>
+                    <li data-aos="fade-right" data-aos-delay="250"> <a href="about.html"><i class="fas fa-address-card fa-2x"></i></a>
                     <span id="links" class="text-white">About</span>
                     </li>
-                    <li><a href="skills.html"><i class="fas fa-tasks fa-2x"></i></a><span id="links" class="text-white">Skills</span>
+                    <li data-aos="fade-right" data-aos-delay="300"> <a href="skills.html"><i class="fas fa-tasks fa-2x"></i></a><span id="links" class="text-white">Skills</span>
                     </li>
-                    <li><a href="services.html"><i class="fas fa-sliders-h fa-2x"></i></a><span id="links"
+                    <li data-aos="fade-right" data-aos-delay="350"><a href="services.html"><i class="fas fa-sliders-h fa-2x"></i></a><span id="links"
                         class="text-white">services</span>
-                    </li>
-                    <li><a href="contact.html"><i class="fas fa-envelope fa-2x"></i></a><span id="links" class="text-white">Contact</span>
+                    </li data-aos="fade-right" data-aos-delay="400">
+                    <li data-aos="fade-right" data-aos-delay="450"><a href="contact.html"><i class="fas fa-envelope fa-2x"></i></a><span id="links" class="text-white">Contact</span>
                     </li>
                 </ul>
             </div>
@@ -41,15 +43,15 @@
                    <div class="row mt-5">
                        <div class="col-lg-1"></div>
                        <div class="col-12 col-sm-12 col-lg-10 text-white d-flex justify-content-between">
-                          <div class="text mt-3">
+                          <div class="text mt-3" data-aos="fade-right">
                               <h3 >AoA !</h3>
                               <h3>This is Aasim shah ,</h3>
                               <h3>Full Stack Developer</h3>
                               <p class="ms-3">Front End  /  Back End   / Full Stack / PHP | aravel </p>
                              
-                              <a href="contact.html" class="btn btn-light w-50"> Contact Us</a>
+                              <a href="contact.html" class="btn btn-light w-50" data-aos="slide-down"> Contact Us</a>
                             </div>
-                         <div> <img src="photos/asim.png" alt="" class="img">
+                         <div data-aos="zoom-in"> <img src="photos/asim.png" alt="" class="img">
                         </div> 
                        </div>
                        <!-- <div class=" col-lg-2"> </div> -->
@@ -70,6 +72,10 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/flickity.js"></script>
     <script src="js/all.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
